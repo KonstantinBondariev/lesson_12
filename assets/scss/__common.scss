@@ -1,39 +1,23 @@
 @use 'mixins' as *;
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 
-// .container {
-//   position: relative;
-// }
-// .navbar {
-//   position: absolute;
-//   top: 0;
-//   right: 0;
-//   left: 0;
-//   z-index: 1020;
-// }
 .navbar-brand__logo {
   width: 50px;
   height: 50px;
 }
 
 .header-content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
   height: 100px;
 
   background-image: url(../img/header-background.jpg);
   background-position: center;
   background-size: cover;
-  // margin-top: 76px;
+  margin-top: 76px !important;
 }
 .carousel-item {
   height: 30vh;
 }
-.ad {
-  display: block;
-}
+
 .right-wrap {
   display: flex;
 
@@ -45,7 +29,7 @@
   z-index: 1005 !important;
 
   width: 47px;
-  height: 550px;
+  height: 575px;
   margin-left: 40px;
 
   background-image: url(../img/right.jpg);
@@ -53,7 +37,6 @@
   background-position: bottom;
 }
 .right-water {
-  position: relative;
   z-index: 1010;
 
   margin-left: -80px;
